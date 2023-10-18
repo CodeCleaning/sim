@@ -1,6 +1,6 @@
 package com.example.cleanarchitecture.chapter3.ocp.controller
 
-import com.example.cleanarchitecture.chapter3.ocp.core.domain.FinancialReport
+import com.example.cleanarchitecture.chapter3.ocp.core.model.FinancialReport
 import com.example.cleanarchitecture.chapter3.ocp.core.service.FinancialReportService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController

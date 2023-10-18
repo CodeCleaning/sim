@@ -1,6 +1,6 @@
 package com.example.cleanarchitecture.chapter3.ocp.repository
 
-import com.example.cleanarchitecture.chapter3.ocp.core.domain.FinancialData
+import com.example.cleanarchitecture.chapter3.ocp.core.model.FinancialData
 
 // entity
 class FinancialDataEntity(
