@@ -1,6 +1,6 @@
-package com.example.cleanarchitecture.shopping.product.application.domain.model
+package com.example.cleanarchitecture.shopping.register.option.application.domain.model
 
-import com.example.cleanarchitecture.shopping.register.product.application.domain.model.OptionType
+import com.example.cleanarchitecture.shopping.product.application.domain.model.OptionType
 
 data class Option(
     val id: Long,

@@ -1,6 +1,6 @@
 package com.example.cleanarchitecture.shopping.register.product.application.domain.service
 
-import com.example.cleanarchitecture.shopping.product.application.domain.model.Option
+import com.example.cleanarchitecture.shopping.register.option.application.domain.model.Option
 import com.example.cleanarchitecture.shopping.register.option.application.port.`in`.RegisterProductOptionUseCase
 import com.example.cleanarchitecture.shopping.register.product.application.port.out.RegisterProductPort
 
