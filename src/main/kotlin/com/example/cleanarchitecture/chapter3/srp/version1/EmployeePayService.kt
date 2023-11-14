@@ -15,7 +15,7 @@ class EmployeePayService {
         month: Int
     ): Int {
         val employee: Employee // 조회 가정
-        val monthOfficeHour: MonthOfficeHour // 조회 가정
+        val monthOfficeHour = MonthOfficeHour() // 조회 가정
 
         val regularPay = calculateRegularHour(monthOfficeHour.officeHourOfMonth)
         val overPay = calculateExtraHour(monthOfficeHour.officeHourOfMonth)
@@ -27,9 +27,9 @@ class EmployeePayService {
     fun reportHours(
         employeeId: Long,
         month: Int
-    ): EmployMonthOfficeHourResponse {
-        val employee: Employee // 조회 가정
-        val monthOfficeHour: MonthOfficeHour // 조회 가정
+    ): EmployMonthOfficeHourResponse? {
+        val employee: Employee = Employee(1, "asd", 1) // 조회 가정
+        val monthOfficeHour = MonthOfficeHour() // 조회 가정
 
         return EmployMonthOfficeHourResponse(
             employee.name,

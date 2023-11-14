@@ -23,3 +23,4 @@ SOLID 는 모두가 한번씩 들어봤을 개념이지만, 추상적으로 알�
 
 ## 정리 링크
 https://www.notion.so/d4aae4c7201241db8164e19ca40cf99c?pvs=4
+https://www.notion.so/d4aae4c7201241db8164e19ca40cf99c?pvs=4

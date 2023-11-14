@@ -7,10 +7,10 @@ data class Employee(
 )
 
 data class MonthOfficeHour(
-    val employeeId: Employee,
-    val month: Int,
-    val officeHourOfMonth: Int,
-    val dayOfOfficeHours: List<DayOfficeHour>
+    val employeeId: Employee? = null,
+    val month: Int = 1,
+    val officeHourOfMonth: Int = 1,
+    val dayOfOfficeHours: List<DayOfficeHour> = listOf()
 ) {
     data class DayOfficeHour(
         val day: Int,
